@@ -1,0 +1,25 @@
+01. List the five falsey values in JavaScript.
+false
+0
+""
+null
+undefined
+NaN
+
+02. List five truthy values in JavaScript.
+1, -1, function emT = "", var emT=[], var obj={}
+
+03. Take a look at the code example below and state what the variable sameAge will be set to and explain why.
+
+var myAge = 33;
+var yourAge = "33";
+
+var sameAge = (myAge === yourAge) ? "Yes!" : "No!";
+
+No!
+- because they are not strictly equal.  Follows this syntax:
+Conditional (Ternary) Operator
+JavaScript also contains a conditional operator that assigns a value to a variable based on some condition.
+
+Syntax
+variablename = (condition) ? value1:value2
